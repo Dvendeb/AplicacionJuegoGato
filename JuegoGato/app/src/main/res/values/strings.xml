@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">JuegoGato</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="gato">GATO</string>
+    <string name="lineas">------------------------</string>
+    <string name="jugar_ahora">Jugar Ahora</string>
+    <string name="ingresa_nombre_jugador_1">Ingresa nombre jugador 1:</string>
+    <string name="ingresa_nombre_jugador_2">Ingresa nombre jugador 2:</string>
 </resources>
