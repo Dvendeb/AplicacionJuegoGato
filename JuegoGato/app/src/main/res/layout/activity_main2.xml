@@ -36,11 +36,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <Button
-            android:id="@+id/btn1"
+            android:id="@+id/btnA1"
             android:layout_width="105dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
+            android:onClick="onclickAU"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <Space
@@ -49,11 +50,12 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/btnA2"
             android:layout_width="wrap_content"
             android:layout_height="99dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
+            android:onClick="onclickAD"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <Space
@@ -62,11 +64,12 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/btn3"
+            android:id="@+id/btnA3"
             android:layout_width="wrap_content"
             android:layout_height="99dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
+            android:onClick="onclickAT"
             tools:ignore="SpeakableTextPresentCheck" />
 
     </LinearLayout>
@@ -86,11 +89,12 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/btnB1"
             android:layout_width="104dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
+            android:onClick="onclickBU"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <Space
@@ -99,11 +103,12 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/btnB2"
             android:layout_width="wrap_content"
             android:layout_height="103dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
+            android:onClick="onclickBD"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <Space
@@ -112,11 +117,12 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/btnB3"
             android:layout_width="wrap_content"
             android:layout_height="103dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
+            android:onClick="onclickBT"
             tools:ignore="SpeakableTextPresentCheck" />
 
     </LinearLayout>
@@ -136,7 +142,7 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <Button
-            android:id="@+id/button12"
+            android:id="@+id/btnC1"
             android:layout_width="104dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -149,7 +155,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button13"
+            android:id="@+id/btnC2"
             android:layout_width="wrap_content"
             android:layout_height="117dp"
             android:layout_weight="1"
@@ -162,7 +168,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/button14"
+            android:id="@+id/btnC3"
             android:layout_width="wrap_content"
             android:layout_height="117dp"
             android:layout_weight="1"
@@ -207,5 +213,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/txtWinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
