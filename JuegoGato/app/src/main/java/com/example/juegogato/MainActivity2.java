@@ -117,13 +117,132 @@ public class MainActivity2 extends AppCompatActivity {
         }
     }
     public void onclickBU(View view){
+        bU=(Button) findViewById(R.id.btnB1);
+        if(turno==0){
+            bU.setText("o");
+            turno=1;
+            playerOne.setBackgroundResource(R.color.black);
+            playerOne.setTextColor(getResources().getColor(R.color.white));
+            playerTwo.setBackgroundResource(R.color.pink);
+            playerTwo.setTextColor(getResources().getColor(R.color.teal_200));
+            gato[0][0]="o";
+        }else{
+            bU.setText("X");
+            turno=0;
+            playerTwo.setBackgroundResource(R.color.black);
+            playerTwo.setTextColor(getResources().getColor(R.color.white));
+            playerOne.setBackgroundResource(R.color.pink);
+            playerOne.setTextColor(getResources().getColor(R.color.teal_200));
+            gato[0][0]="X";
+        }
+        aU.setEnabled(true);
 
     }
     public void onclickBD(View view){
+        bD=(Button) findViewById(R.id.btnB2);
+        if(turno==0){
+            bD.setText("o");
+            turno=1;
+            playerOne.setBackgroundResource(R.color.black);
+            playerOne.setTextColor(getResources().getColor(R.color.white));
+            playerTwo.setBackgroundResource(R.color.pink);
+            playerTwo.setTextColor(getResources().getColor(R.color.teal_200));
+            gato[0][0]="o";
+        }else{
+            bD.setText("X");
+            turno=0;
+            playerTwo.setBackgroundResource(R.color.black);
+            playerTwo.setTextColor(getResources().getColor(R.color.white));
+            playerOne.setBackgroundResource(R.color.pink);
+            playerOne.setTextColor(getResources().getColor(R.color.teal_200));
+            gato[0][0]="X";
+        }
+        aU.setEnabled(true);
 
     }
     public void onclickBT(View view){
-
+        bT=(Button) findViewById(R.id.btnB3);
+        if(turno==0){
+            bT.setText("o");
+            turno=1;
+            playerOne.setBackgroundResource(R.color.black);
+            playerOne.setTextColor(getResources().getColor(R.color.white));
+            playerTwo.setBackgroundResource(R.color.pink);
+            playerTwo.setTextColor(getResources().getColor(R.color.teal_200));
+            gato[0][0]="o";
+        }else{
+            bT.setText("X");
+            turno=0;
+            playerTwo.setBackgroundResource(R.color.black);
+            playerTwo.setTextColor(getResources().getColor(R.color.white));
+            playerOne.setBackgroundResource(R.color.pink);
+            playerOne.setTextColor(getResources().getColor(R.color.teal_200));
+            gato[0][0]="X";
+        }
+        aU.setEnabled(true);
+    }
+    public void onclickCU(View view){
+        cU=(Button) findViewById(R.id.btnC1);
+        if(turno==0){
+            cU.setText("o");
+            turno=1;
+            playerOne.setBackgroundResource(R.color.black);
+            playerOne.setTextColor(getResources().getColor(R.color.white));
+            playerTwo.setBackgroundResource(R.color.pink);
+            playerTwo.setTextColor(getResources().getColor(R.color.teal_200));
+            gato[0][0]="o";
+        }else{
+            cU.setText("X");
+            turno=0;
+            playerTwo.setBackgroundResource(R.color.black);
+            playerTwo.setTextColor(getResources().getColor(R.color.white));
+            playerOne.setBackgroundResource(R.color.pink);
+            playerOne.setTextColor(getResources().getColor(R.color.teal_200));
+            gato[0][0]="X";
+        }
+        aU.setEnabled(true);
+    }
+    public void onclickCD(View view){
+        cD=(Button) findViewById(R.id.btnC2);
+        if(turno==0){
+            cD.setText("o");
+            turno=1;
+            playerOne.setBackgroundResource(R.color.black);
+            playerOne.setTextColor(getResources().getColor(R.color.white));
+            playerTwo.setBackgroundResource(R.color.pink);
+            playerTwo.setTextColor(getResources().getColor(R.color.teal_200));
+            gato[0][0]="o";
+        }else{
+            cD.setText("X");
+            turno=0;
+            playerTwo.setBackgroundResource(R.color.black);
+            playerTwo.setTextColor(getResources().getColor(R.color.white));
+            playerOne.setBackgroundResource(R.color.pink);
+            playerOne.setTextColor(getResources().getColor(R.color.teal_200));
+            gato[0][0]="X";
+        }
+        aU.setEnabled(true);
+    }
+    public void onclickCT(View view){
+        cT=(Button) findViewById(R.id.btnC3);
+        if(turno==0){
+            cT.setText("o");
+            turno=1;
+            playerOne.setBackgroundResource(R.color.black);
+            playerOne.setTextColor(getResources().getColor(R.color.white));
+            playerTwo.setBackgroundResource(R.color.pink);
+            playerTwo.setTextColor(getResources().getColor(R.color.teal_200));
+            gato[0][0]="o";
+        }else{
+            cT.setText("X");
+            turno=0;
+            playerTwo.setBackgroundResource(R.color.black);
+            playerTwo.setTextColor(getResources().getColor(R.color.white));
+            playerOne.setBackgroundResource(R.color.pink);
+            playerOne.setTextColor(getResources().getColor(R.color.teal_200));
+            gato[0][0]="X";
+        }
+        aU.setEnabled(true);
     }
 
     public void onClickBack(View view){
