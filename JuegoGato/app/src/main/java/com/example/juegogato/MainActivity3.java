@@ -21,6 +21,8 @@ public class MainActivity3 extends AppCompatActivity {
         playerOne=nameOne.toString();
         playerTwo=nameTwo.toString();
         Intent intent=new Intent(MainActivity3.this,MainActivity2.class);
+        intent.putExtra("PlayerOne",playerOne);
+        intent.putExtra("PlayerTwo",playerTwo);
         startActivity(intent);
         finish();
     }
