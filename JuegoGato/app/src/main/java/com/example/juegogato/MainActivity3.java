@@ -18,8 +18,8 @@ public class MainActivity3 extends AppCompatActivity {
     public void onClickAceptar (View view){
         EditText nameOne=(EditText) findViewById(R.id.txtName1);
         EditText nameTwo=(EditText) findViewById(R.id.txtName2);
-        playerOne=nameOne.toString();
-        playerTwo=nameTwo.toString();
+        playerOne=nameOne.getText().toString();
+        playerTwo=nameTwo.getText().toString();
         Intent intent=new Intent(MainActivity3.this,MainActivity2.class);
         intent.putExtra("PlayerOne",playerOne);
         intent.putExtra("PlayerTwo",playerTwo);
