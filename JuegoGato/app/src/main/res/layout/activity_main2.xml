@@ -147,6 +147,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
+            android:onClick="onclickCU"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <Space
@@ -160,6 +161,7 @@
             android:layout_height="117dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
+            android:onClick="onclickCD"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <Space
@@ -173,6 +175,7 @@
             android:layout_height="117dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
+            android:onClick="onclickCT"
             tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
 
