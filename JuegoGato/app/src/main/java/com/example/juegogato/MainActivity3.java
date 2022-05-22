@@ -20,6 +20,16 @@ public class MainActivity3 extends AppCompatActivity {
         EditText nameTwo=(EditText) findViewById(R.id.txtName2);
         playerOne=nameOne.getText().toString();
         playerTwo=nameTwo.getText().toString();
+        if(playerOne.isEmpty() && playerTwo.isEmpty()){
+            playerOne="Player1";
+            playerTwo="Player2";
+        }
+        else if(playerOne.isEmpty()){
+            playerOne="Player1";
+        }
+        else if(playerTwo.isEmpty()){
+            playerTwo="Player2";
+        }
         Intent intent=new Intent(MainActivity3.this,MainActivity2.class);
         intent.putExtra("PlayerOne",playerOne);
         intent.putExtra("PlayerTwo",playerTwo);
