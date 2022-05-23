@@ -319,7 +319,7 @@ public class MainActivity2 extends AppCompatActivity {
         || gato[2][0]=="x" && gato[2][1]=="x" && gato[2][2]=="x" || gato[0][0]=="x" && gato[1][0]=="x" && gato[2][0]=="x"
         || gato[0][1]=="x" && gato[1][1]=="x" && gato[2][1]=="x" || gato[0][2]=="x" && gato[1][2]=="x" && gato[2][2]=="x"
         || gato[0][0]=="x" && gato[1][1]=="x" && gato[2][2]=="x" || gato[0][2]=="x" && gato[1][1]=="x" && gato[2][0]=="x"){
-            winner.setText("el ganador es "+nameTwo);
+            winner.setText("El ganador es "+nameTwo);
             diseableButtons(view);
         }
 

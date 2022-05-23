@@ -26,19 +26,18 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="41dp"
-        android:layout_marginTop="247dp"
         android:layout_marginEnd="41dp"
         android:layout_marginBottom="115dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/txtWinner">
 
         <Button
             android:id="@+id/btnA1"
-            android:layout_width="105dp"
-            android:layout_height="match_parent"
+            android:layout_width="103dp"
+            android:layout_height="114dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
             android:onClick="onclickAU"
@@ -51,8 +50,8 @@
 
         <Button
             android:id="@+id/btnA2"
-            android:layout_width="wrap_content"
-            android:layout_height="99dp"
+            android:layout_width="101dp"
+            android:layout_height="143dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
             android:onClick="onclickAD"
@@ -65,8 +64,8 @@
 
         <Button
             android:id="@+id/btnA3"
-            android:layout_width="wrap_content"
-            android:layout_height="99dp"
+            android:layout_width="98dp"
+            android:layout_height="143dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
             android:onClick="onclickAT"
@@ -90,8 +89,8 @@
 
         <Button
             android:id="@+id/btnB1"
-            android:layout_width="104dp"
-            android:layout_height="match_parent"
+            android:layout_width="110dp"
+            android:layout_height="92dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
             android:onClick="onclickBU"
@@ -104,8 +103,8 @@
 
         <Button
             android:id="@+id/btnB2"
-            android:layout_width="wrap_content"
-            android:layout_height="103dp"
+            android:layout_width="77dp"
+            android:layout_height="98dp"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
             android:onClick="onclickBD"
@@ -119,7 +118,7 @@
         <Button
             android:id="@+id/btnB3"
             android:layout_width="wrap_content"
-            android:layout_height="103dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/cardview_shadow_end_color"
             android:onClick="onclickBT"
@@ -221,6 +220,7 @@
         android:id="@+id/txtWinner"
         android:layout_width="234dp"
         android:layout_height="42dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
