@@ -1,2 +1,6 @@
-# AplicacionJuegoGato
-Juego de gato en Android studio
+1922-IS
+
+Aplicaciones Moviles
+
+Gonzalez Luna Julia Yamile
+Ochoa Martinez Diego Armando
